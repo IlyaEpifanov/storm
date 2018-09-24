@@ -1,8 +1,13 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".gitkeep" type="Native" />
       <mapping ext="tpl" type="PHP" />
-      <mapping pattern="j7tpl" type="PLAIN_TEXT" />
+      <mapping pattern="Tree" type="PLAIN_TEXT" />
+      <mapping pattern="333" type="PLAIN_TEXT" />
+      <mapping ext="stylus" type="PLAIN_TEXT" />
+      <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
       <removed_mapping ext="tpl" type="Smarty" />
     </extensionMap>
   </component>

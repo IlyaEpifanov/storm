@@ -1,82 +1,178 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f5945e8f-cf49-4df4-a932-52922b1ae21a" name="Анвел FTP" url="http://u461582.ftp.masterhost.ru">
-        <fileTransfer host="u461582.ftp.masterhost.ru" port="21" rootFolder="/anwelltex.ru/www">
+      <webServer id="80334a06-7ccb-41c4-a5fb-0960fa2a9447" name="Русский союз VPS" url="http://92.53.104.133">
+        <fileTransfer host="92.53.104.133" port="21" rootFolder="/www/xn--g1abdcwihado2k.xn--p1ai" username="ruscat" password="dff8dfc2dfd0dfc1dfe1dfc3dfe0dfd3dfe3dfc0dfc5dfdbdfd9dfdadfebdf9edf99dfd2dfefdffe">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6ef054d4-b544-4ec4-b4a5-553c7ff4f2c5" name="Потенциал магазин dev" url="http://u449660.ftp.masterhost.ru">
+        <fileTransfer host="u449660.ftp.masterhost.ru" port="21" rootFolder="/dev.potencial-dveri.com/www" username="u449660" password="dfd8dfcfdfcfdfc4dfdedfd8dfcbdfdcdfcfdf9ddfd9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e7aba26c-190b-468a-a2d1-38fc750d03da" name="Биферст" url="http://u448691.ftp.masterhost.ru">
+        <fileTransfer host="u448691.ftp.masterhost.ru" port="21" username="u448691">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f5989ea6-3a91-4e04-9115-793eed1473ca" name="dev.befirst" url="http://u448691.ftp.masterhost.ru">
+        <fileTransfer host="u448691.ftp.masterhost.ru" port="21" rootFolder="/opt.befirst.info/www" username="u448691" password="dfd8dfcfdfcedfc3dfc4df9ddfc3dfc4dfcddfdfdfc4dfcd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d29d2fd3-a4d4-4393-ab7e-c55aa9c0a0c2" name="kran.pifcms.ru" url="http://u386867.ftp.masterhost.ru">
+        <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/kran.pifcms.ru/www" username="u386867_full" password="dfc9dfc5dfdfdfd9df9edfc3dfc4dfcbdfcddfcd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c6fbc36a-d6d3-4ce3-888b-cafdac188677" name="kranmontag" url="http://80.93.62.67">
+        <fileTransfer host="80.93.62.67" port="21" username="ftp_slavec_1" password="df9bdfeedfc2dfc5dfc2df9fdfc8dfd9dfffdfdadfc2">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="40361844-6d9a-4ddd-b118-3a9d0bcb5db3" name="Novostroy GO (на портале)" url="http://87.242.64.201">
-        <fileTransfer host="87.242.64.201" port="21" rootFolder="/flatstore.ru/www/">
+      <webServer id="dca501fc-32cd-4173-b92f-705ecbd51a6f" name="kranmontag.ru" url="http://80.93.62.67">
+        <fileTransfer host="80.93.62.67" port="21" rootFolder="/www/site1/public_html" username="ftp_slavec_1" password="df9bdfeedfc2dfc5dfc2df9fdfc8dfd9dfffdfdadfc2">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c02b9ece-62b4-465f-8402-ee7564f70a00" name="potencial-dveri.com" url="http://u449660.ftp.masterhost.ru">
+        <fileTransfer host="u449660.ftp.masterhost.ru" port="21" rootFolder="/potencial-dveri.com/www" username="u449660" password="dfd8dfcfdfcfdfc4dfdedfd8dfcbdfdcdfcfdf9ddfd9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0240339f-aa1f-46ba-b9fb-bdf8ae76c9f8" name="cms.pifcms.ru" url="http://u386867.ftp.masterhost.ru">
+        <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/cms.pifcms.ru/www" username="u386867_full" password="dfc9dfc5dfdfdfd9df9edfc3dfc4dfcbdfcddfcd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="615f87f4-46f0-4fbd-8250-5b404dce3122" name="CRM" url="http://u386867.ftp.masterhost.ru">
+        <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/crm.pifcms.ru/www" username="u386867_full" password="dfc9dfc5dfdfdfd9df9edfc3dfc4dfcbdfcddfcd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="691ac1a9-66e3-43ad-bcc6-2cd8f64d510c" name="CRM (1)" url="http://u386867.ftp.masterhost.ru">
+        <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/crm.pifcms.ru/www" username="u386867_full" password="dfc9dfc5dfdfdfd9df9edfc3dfc4dfcbdfcddfcd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6517c6c5-64e4-4057-890e-547241750c91" name="Anwelltex" url="http://anwellu6.beget.tech">
+        <fileTransfer host="anwellu6.beget.tech" port="21" rootFolder="/anwellu6.beget.tech/public_html" username="u461582" password="dfd8dfcfdfcddfdfdfcfdfcfdf9ddfdedfcfdfd8dfcfdfc4dfce">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="c2ba4a98-4642-44b6-9166-6056e9e267bc" name="Озеров local" url="http://localhost">
+      <webServer id="04ad1813-9b47-4eab-b675-13c04e466409" name="CMF-3" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="80b10b27-6083-4432-af6e-e0837f487715" name="opt.befirst" url="http://u448691.ftp.masterhost.ru">
-        <fileTransfer host="u448691.ftp.masterhost.ru" port="21" rootFolder="/opt.befirst.info/www/">
+      <webServer id="e9b10d4d-badc-4c6b-a8db-85acf2ef85c1" name="flatstore.ru" url="http://u450255.ftp.masterhost.ru">
+        <fileTransfer host="u450255.ftp.masterhost.ru" port="21" rootFolder="/flatstore.ru/www">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="2552a6ee-a9f5-438a-9de4-a67070e16bb9" name="dev.befirst" url="http://u448691.ssh.masterhost.ru">
-        <fileTransfer host="u448691.ssh.masterhost.ru" port="22" rootFolder="/opt.befirst.info/www" accessType="SFTP">
+      <webServer id="ce408fa1-f6a3-4d7a-9fd0-9a97d83cd1a5" name="Potential Storage" url="http://u449660.ftp.masterhost.ru">
+        <fileTransfer host="u449660.ftp.masterhost.ru" port="21" rootFolder="/storage.potencial-dveri.ru/www">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="22b79464-7fda-4c31-8861-bf2cfa9e9457" name="dev.befirst.ssh" url="http://u448691.ssh.masterhost.ru">
-        <fileTransfer host="u448691.ssh.masterhost.ru" port="22" rootFolder="/home/u448691/opt.befirst.info/www" accessType="SFTP">
+      <webServer id="5659bbc0-a3fd-4804-a651-cc3e1e2e259d" name="Potential Moscow" url="http://u449660.ftp.masterhost.ru">
+        <fileTransfer host="u449660.ftp.masterhost.ru" port="21" rootFolder="/potencial-dveri.moscow/www">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="c29c1b1d-a2ae-4643-a58b-13ff7a5f9e0f" name="cms" url="http://u386867.ftp.masterhost.ru">
-        <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/cms.pifcms.ru/www">
+      <webServer id="b7a8c747-1b41-4c3c-83ff-6d5ec81b8efe" name="DTF" url="http://u457691.ftp.masterhost.ru">
+        <fileTransfer host="u457691.ftp.masterhost.ru" port="21" rootFolder="/doors-tf.ru/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8036da03-2895-48a0-aa29-aa6c40e4b538" name="Parviz.ru" url="http://oooparif.beget.tech">
+        <fileTransfer host="oooparif.beget.tech" port="21" rootFolder="/parviz33.ru/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b84d2c95-50bc-4528-ba83-76fb86f29702" name="MDV dev" url="http://u386867.ftp.masterhost.ru">
+        <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/topas.pifcms.ru/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="72d88e91-8b1e-412a-9017-14e1fa555a60" name="dev.volhovecdoors.ru" url="http://dev.volhovecdoors.ru">
+        <fileTransfer host="g555aydv.beget.tech" port="21" rootFolder="/volhovecdoors.ru/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="41e18da7-728e-4e52-8a37-06e3def70530" name="cms (1)" url="http://u386867.ssh.masterhost.ru">
-        <fileTransfer host="u386867.ssh.masterhost.ru" port="22" rootFolder="/home/u386867/cms.pifcms.ru" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="f4e60141-7c94-4a9d-bc92-585a21f5566b" name="Potential Moscow" url="http://u449660.ftp.masterhost.ru">
-        <fileTransfer host="u449660.ftp.masterhost.ru" port="21" rootFolder="/potencial-dveri.moscow/www">
+      <webServer id="402a9333-51d0-445e-9981-0e6e4e786427" name="dev.volhovecdoors.ru (1)" url="http://dev.volhovecdoors.ru">
+        <fileTransfer host="g555aydv.beget.tech" port="21" rootFolder="/dev.volhovecdoors.ru/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="69b6045b-e83a-46f3-b81d-3709d4cee2d1" name="Potencial Moscow" url="http://u449660.ftp.masterhost.ru">
-        <fileTransfer host="u449660.ftp.masterhost.ru" port="21" rootFolder="/potencial-dveri.moscow/www">
+      <webServer id="948ca79b-ae96-4854-b773-64b6c0395554" name="sportnutra.ru" url="http://u448691.ftp.masterhost.ru">
+        <fileTransfer host="u448691.ftp.masterhost.ru" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="4636ee14-a672-4a6a-9575-450d76a5a52a" name="sc.pifcms" url="http://u386867.ftp.masterhost.ru">
+      <webServer id="9e64583a-d42e-4f24-907a-6824f2fd5e80" name="sc.pifcms.ru" url="http://u386867.ftp.masterhost.ru">
         <fileTransfer host="u386867.ftp.masterhost.ru" port="21" rootFolder="/sc.pifcms.ru/www">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -84,8 +180,72 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="aef050fa-804a-4a1a-bb2b-03d6711f66cf" name="dfgsdfgsdfg" url="http://masterte.beget.tech">
-        <fileTransfer host="masterte.beget.tech" port="21" rootFolder="/masterte.beget.tech/public_html">
+      <webServer id="b45fd0dd-668e-41d8-bf5b-206b50e07403" name="sc-stroyresurs.ru" url="http://sresyrzd.beget.tech">
+        <fileTransfer host="sresyrzd.beget.tech" port="21" rootFolder="/sresyrzd.beget.tech/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8ec0dbe0-f15e-422c-bc76-f8c67bb095e8" name="sc-stroyresurs.ru (1)" url="http://sc-stroyresurs.ru">
+        <fileTransfer host="sresyrzd.beget.tech" port="21" rootFolder="/sresyrzd.beget.tech/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="deb05606-8119-4e30-a40a-d82393bc7c3f" name="sc-stroyresurs.ru (2)" url="http://sresyrzd.beget.tech">
+        <fileTransfer host="sresyrzd.beget.tech" port="21" rootFolder="/sresyrzd.beget.tech/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8dd8eb6e-c566-43ed-9d77-5a590b11e04a" name="koptilnye-kamery.pischeprom.com" url="http://u441442.ftp.masterhost.ru">
+        <fileTransfer host="u441442.ftp.masterhost.ru" port="21" rootFolder="/koptilnye-kamery.pischeprom.com/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e6d970b-5778-4f95-af0e-4e164e55824f" name="test.kononenkoart.com" url="http://studiolr.beget.tech">
+        <fileTransfer host="studiolr.beget.tech" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a7edc89c-f2f6-463c-9531-6ac3ebf8b9cf" name="test.kononenkoart.com (1)" url="http://studiolr.beget.tech">
+        <fileTransfer host="studiolr.beget.tech" port="21" rootFolder="/studiolr.bget.ru/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="02680e8d-87df-4d5e-b244-beec859fc12b" name="initsiativa.su" url="http://u12449.ftp.masterhost.ru">
+        <fileTransfer host="u12449.ftp.masterhost.ru" port="21" rootFolder="/initsiativa.su/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fb1fd549-624b-42f6-a02b-34665300764a" name="kononenkoart" url="http://studiolr.beget.tech">
+        <fileTransfer host="studiolr.beget.tech" port="21" rootFolder="/studiolr.bget.ru/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4d8ea5d5-6778-47f4-9ec4-71271034f652" name="kononenkoart (1)" url="http://studiolr.beget.tech">
+        <fileTransfer host="studiolr.beget.tech" port="21" rootFolder="/studiolr.bget.ru/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
@@ -93,8 +253,5 @@
         </fileTransfer>
       </webServer>
     </option>
-  </component>
-  <component name="webServersAuthStorage">
-    <data>AAAFMHpKnnSuyPcGtlR5hbtq9ZutbkKh6dGKT9DUdPktsvq4tz7hh8SbZ4VhywvKJvoECqZ5r3xVPBtybzNxOevGEYIOef+XZeHvW29LYT213/8osF+CQ6g4McuTeQiTuWQbbIgwU4dpn5OBXbwS4aIwAGgiFn0xHljagLQjGboAQFcOeRsDeTXrtbfQ7wrLeGG0XKduG3wWjAsGUmFiQvkmxe4jPXBvl6o7nhj8hBSv5Amw1yT4mj9L6gZHhHJ9go6g6R5xxpd/e67yBbPuLnPiGTDzb1Jko51HIIc8Y6H5jG4E0DA42FDipnAz4WIeCwrnMEMglhrJW4U/9u/rXdWwo377avhGLXVycPotkKuG1ygf8NgNHqa/UZhUsPDskyPdvE8Au603TgaBsi2ssnHi6mOi4nAjmdpOnK5YagkCku5rX1QYk1mebTC8v8JY1VUgVE7taUjjLHhiVPP2iUVA1FYseGB3374XfwxFKv0sA0lngqew/lWznunRysH/Gmf6hxVsvuy4ByWORL+0wxhs+78MpTzjuUQaJIY00Lbc8Fs+PqOR54DpjkCrmqreBghXftp1B7Wxc8H+P3gvyIpne1tfNU8/5JCrOZygAR/WnM5Ew4OiWki0UeFXclc+VG6NkbsJ8kkrj2s39HgER0cysTfmWWVFGldjjdSukLaFVI2RJ/Un+uH/UsfRudUDk23oET4pn9ja8D6wFZA1v1xKR21TRZVkpbdjRhoXQVll3Um0bguBJeZGgwnhmfI5pP/hcFV3kP7UuiFXJe8UsgOOAnZ4oqtmPSLGgV35w4N4GhSwfK0386gqa1JDNk3KLKPTlyjhyK4EFeZYDDagxacXQsNWD3ujQaURtN+D9x80E0/q80e5wZbYb90c1P2enqlNBpDkGHuVYFHxnJZc9vQi+ZI08A+cMJ3PVR7MffMjr0B1ul5afN9obX+F+wBIojgPRGBXfDtvQ++VhnVymr52Rq1pOWUGyxAwdq14knRR+cm2aSTsohlFXKDxYlUfH715edhrWjuBO3FqAFO4ic3/ylNUaFm/b6VJ0CSVIvpQKbKZ4x/JpGxzO9OrE4tgrK0gqUOvUkswLS4SWHvVCBzy0ZNF5gzXSEkt8rmHzIqu6vljAw9dSPvfL6QJDScYqemNVe7CpIh65fb5/pM4qxmODycJZlQb6UfTdO2dOJjtkiJOUelSXU26GZ7WfcurAqn6BrOrPiYIzqC5anKFccIxg4Rz7gqj7j41Br+4iPkyV2V5iNI6zfyNAqjcbW9J5HaZaIBavZbb5xCrZXjtxIpivSHvLjJG2FKYMzK8uCmJ0ni8fNRYZ8ox8+3HdlwrdljvSyO/eWsT19+tgs4Xs3ltv6MRXhgc4S6d9pKMe4bRKa2yWlFGxzLbbJNE6UnOOZempwXahvwawDxc+qdX68Uk+qmQMSoZAFkGJX35N1htd02x8VRTzG/NaFau/4tgqHNg0EcctuDeEfToKgom4O6dN3unlOIcpt3tASomwntq0QABeo1jWzJNUyiKfUihx1zwoHEWvn7pk/AW9O2J7lBWcLQwBc5m27pBQ3/lduuw9CMItGcdto5BTrFU1o1vYz7OyQitmnJ6jz2y/QXBiAGLk0eAvW5RXJwtHuMibrziQ6iBqR1TnvkATdsUyWkxIiBxKPTNwf9ZgqiS9FbI0+SYOBGm9mTG2DUr+vg0arc/Cn0Msv8NRpmL4/vfIG2D8AT7taQ8MoP9ISJDKrYRnyoeIOUEEI1MEkMgvrFF5aMF1H41FUp/8jNG64MvMVRYyMKYoQ==</data>
   </component>
 </application>
